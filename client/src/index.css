@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: rgb(17, 24, 39);
+}
+.container {
+  margin: 0 auto;
+  max-width: 75rem;
+}
+
+/* section1 */
+
+.main-content {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.main-info {
+  max-width: 35rem;
+  color: white;
+}
+.main-info p {
+  font-size: 15px;
+  margin: 18px 0;
+}
+.main-info h1 {
+  font-size: 45px;
+  margin: 18px 0;
+}
+.main-img {
+  max-width: 35rem;
+  display: flex;
+  align-items: center;
+}
+.btn-info {
+  margin-right: 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+/* section 2 */
+
+.box {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  padding: 30px;
+  margin: 100px 0;
+}
+.box div {
+  border-right: 1px solid black;
+}
+.box div:last-child {
+  border: none;
+}
+.box div h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px rgb(49, 47, 47);
+}
+
+/* contact section */
+
+.conatct-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* error page */
+
+.error-content {
+  margin: 50px auto;
+  width: 45rem;
+  color: white;
+  text-align: center;
+  min-height: 75vh;
+}
+.error-content h1 {
+  font-size: 180px;
+  margin: 20px 0;
+}
+.error-content h3 {
+  font-size: 20px;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+
+/* service page */
+
+.service-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-info p {
+  width: fit-content;
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+/* admin contacts */
+
+.contacts {
+  max-width: fit-content;
+}
+.contact-data {
+  width: 90%;
+}
+.contact-data th {
+  /* max-width: 200px; */
+}
+.message {
+  max-width: 800px;
+  color: aqua;
+  overflow-wrap: normal;
+}
